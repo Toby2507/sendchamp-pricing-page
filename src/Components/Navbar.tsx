@@ -11,9 +11,9 @@ const Navbar = () => {
   const setShowMobileNav = useSetRecoilState(mobileNavAtom);
   const toggleNav = () => setShowMobileNav(prev => !prev);
   return (
-    <Flex as="nav" pos="sticky" zIndex={2} top="0px" bg="gray.5" py={6} px={{ base: 8, md: 24 }} gap={10} alignItems="center" justify="space-between">
+    <Flex as="nav" pos="sticky" zIndex={2} top="0px" bg="gray.5" py={6} px={{ base: 8, md: 24, lg: 32 }} gap={10} alignItems="center" justify="space-between">
       <Image src={logo} alt="SendChamp logo" cursor="pointer" my="auto" maxW="157px" />
-      <Show above="md">
+      <Show above="lg">
         <List as={Flex} my="auto" gap={8}>
           {navItems.map((item, i) => (
             <ListItem key={i}><NavItem {...item} /></ListItem>
@@ -25,7 +25,7 @@ const Navbar = () => {
           <Text cursor="pointer">NG</Text>
         </Flex>
       </Show>
-      <Show below="md">
+      <Show below="lg">
         <Icon as={GiHamburgerMenu} w="1.5rem" h="1.5rem" onClick={toggleNav} />
       </Show>
     </Flex>
