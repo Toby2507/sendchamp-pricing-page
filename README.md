@@ -1,59 +1,55 @@
-This project was bootstrapped with
-[Create React App](https://github.com/facebook/create-react-app).
+# **Frontend Implementation of the SendChamp Pricing page.**
 
-## Available Scripts
+## The challenge
 
-In the project directory, you can run:
+- Setup a React app with Chakra-UI and RecoilJS
+- Replicate our Pricing Page (sendchamp.com).
+- Use the font from the website.
+- The only state management to be used should be RecoilJS.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.<br /> Open
-[http://localhost:3000](http://localhost:3000) to view it in the browser.
+To work with or inspect the code base
 
-The page will reload if you make edits.<br /> You will also see any lint errors
-in the console.
+- Clone the repo
 
-### `npm test`
+```bash
+git clone git@github.com:Toby2507/sendchamp-pricing-page.git
+```
 
-Launches the test runner in the interactive watch mode.<br /> See the section
-about
-[running tests](https://facebook.github.io/create-react-app/docs/running-tests)
-for more information.
+- Install dependencies
 
-### `npm run build`
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.<br /> It correctly bundles
-React in production mode and optimizes the build for the best performance.
+### Links
 
-The build is minified and the filenames include the hashes.<br /> Your app is
-ready to be deployed!
+- [Solution URL](https://github.com/Toby2507/sendchamp-pricing-page)
+- [Live Site URL](https://sendchamp-pricing-page.netlify.app/)
 
-See the section about
-[deployment](https://facebook.github.io/create-react-app/docs/deployment) for
-more information.
+## How To Use
 
-### `npm run eject`
+It's basically a clone of the pricing page of sendchamp.com
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## My process
 
-If you aren’t satisfied with the build tool and configuration choices, you can
-`eject` at any time. This command will remove the single build dependency from
-your project.
+- Setup my react project with create-react-app and in this case the chakraUI template was used
+- Break the UI design down into components and work from there
+- Code the components and pages while making them respoonsive simulataneously
+- Finally, test the app on different browsers and devices
+- Deploy the app to Netlify
 
-Instead, it will copy all the configuration files and the transitive
-dependencies (webpack, Babel, ESLint, etc) right into your project so you have
-full control over them. All of the commands except `eject` will still work, but
-they will point to the copied scripts so you can tweak them. At this point
-you’re on your own.
+### Built with
 
-You don’t have to ever use `eject`. The curated feature set is suitable for
-small and middle deployments, and you shouldn’t feel obligated to use this
-feature. However we understand that this tool wouldn’t be useful if you couldn’t
-customize it when you are ready for it.
+- React
+- Typescript
+- ChakraUI
+- Recoil.js for state management
+- Mobile-first workflow
 
-## Learn More
+### Challenges
 
-You can learn more in the
-[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- This is an awesome learning avenue for me since I have never used a UI framework before, but thankfully I was able to pick it up very fast
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- The main issue I had was navigating ChakraUI's documentation in such a short amount of time.
